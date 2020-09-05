@@ -8,6 +8,7 @@ dark_palette = [
 dark_bg = colorant"#191919"
 
 _themes[:custom] = PlotTheme(
+    legend=false,
     bg=dark_bg,
     bginside=dark_bg,
     bglegend=dark_bg,
