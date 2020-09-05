@@ -5,16 +5,16 @@ dark_palette = [
     colorant"#005D7F" # blue
 ]
 
-dark_bg = colorant"#363D46"
+dark_bg = colorant"#191919"
 
 _themes[:custom] = PlotTheme(
-    bg=colorant"transparent",
-    bginside=colorant"transparent",
+    bg=dark_bg,
+    bginside=dark_bg,
+    bglegend=dark_bg,
     fg=colorant"#ADB2B7",
     fgtext=colorant"#FFFFFF",
     fgguide=colorant"#FFFFFF",
     fglegend=colorant"#FFFFFF",
-    bglegend=colorant"#0C0C0C",
     legendfontcolor=colorant"#FFFFFF",
     legendtitlefontcolor=colorant"#FFFFFF",
     titlefontcolor=colorant"#FFFFFF",
